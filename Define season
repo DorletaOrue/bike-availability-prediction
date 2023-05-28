@@ -1,0 +1,12 @@
+#Define the season of the year
+def get_season(month):
+    x=month%12 // 3+1
+    if x==1:
+        season='winter'
+    if x==2:
+        season='spring'
+    if x==3:
+        season='summer'
+    if x==4:
+        season='autumn'
+    return season
